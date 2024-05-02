@@ -1,1 +1,2 @@
-export function func() {}
+import mergeImgs from './mergeImgs';
+export { mergeImgs };
