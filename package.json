@@ -1,0 +1,34 @@
+{
+  "name": "img-utils-browser",
+  "version": "1.0.0",
+  "description": "一些处理图片的实用方法",
+  "repository": "https://github.com/shushanyalida5124/img-utils-browser.git",
+  "type": "module",
+  "scripts": {
+    "start": "tsup --watch",
+    "build": "tsup"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LCIENSE"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
+  "keywords": [
+    "canvas",
+    "image"
+  ],
+  "author": "qjsama",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5",
+    "tsup": "^8.0.2"
+  }
+}
