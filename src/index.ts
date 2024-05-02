@@ -1,2 +1,3 @@
 import mergeImgs from './mergeImgs';
-export { mergeImgs };
+import cropImg from './cropImg';
+export { mergeImgs, cropImg };

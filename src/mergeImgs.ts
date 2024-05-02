@@ -11,6 +11,7 @@ type ImgList = {
 }[];
 
 /**
+ * 合并图片，将list中的图片合并为一张
  * @param list 图片url及左上角位置及宽高
  * @param width 结果宽度
  * @param height 结果宽度
